@@ -1,0 +1,7 @@
+Consider interior decoration of palaces and buildings. Develop an interactive  tool for copying and pasting artworks from one wall to another. The tool should have the following feature:
+(i) Selection of a source rectangular patch of images containing the art work on a wall (or a plane). Define a set of points or patches interactively which will be copied to the target location.
+(ii) Selection  of the target location on another (or the same wall), where the art work would be pasted.
+
+Consider the images provided with this assignment, namely Palace1 and Palace2. Provide experimental results on those two images in your report. In particular consider following test cases:
+(i) On Palace1: Copy and paste different objects (artworks) from the interior front wall to the side walls.
+(ii) On palace2: The bluish artwork in the entrance to be copied in the greenish rectangular patches of sidewall.

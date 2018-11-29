@@ -1,0 +1,23 @@
+Given an image you are asked to estimate the projection matrix of a camera (in the imaging system) by computing vanishing points of principal axes of world coordinate system  and also the image of its origins. Note that these are related to the columns of the projection matrix. For estimating the projection matrix develop an interactive interface, which can perform the following operations on an image.
+ (a) Compute the pixel coordinate of a point in an image.
+ (b) Compute the length in pixels between two image points.
+ (c) Compute the vanishing point of two parallel lines (in real world) as identified by the user.
+
+Using the above tool and also other associated functions as you need, form the projection matrices (they are different!) of the following two images with the  information related to the world coordinates specified with it.
+
+I. Name of the image:”Airport.jpg”
+   Information of wold coordinates:
+     (i) Camera centric world coordinate system, and the principal plane of the imaging system is the X-Y plane.
+     (ii) The nearer aeroplane is at a distance of 150 meters.
+     (iii) The dimension of the aeroplanes visible in the image are given in the file “A350-dimensions.jpg”.
+
+II. Name of the image: “Church.jpg”
+    Information of wold coordinates: (i) Consider the world coordinate system whose origin is at the corner point where two walls meet with the attic. Consider the vertical line downward as the Z-axis, the left wall forms the XZ plane and the right wall forms the YZ plane. Assume the images of lines along all these directions are parallel.
+  (ii) The dimensions of the 3-pane attic windows are given in the file “AtticWindow.jpg”.
+  
+Marking Policy:
+(i) Interactive tool on various measurement: 20
+(ii) Solving the projection matrix for “Airport.jpg”: 30
+(iii) Solving the projection matrix of “Church.jpg”: 30
+(iv) Report for the first projection matrix (of Airport.jpg):10
+(v) Report for the second projection matrix (of Church.jpg):10

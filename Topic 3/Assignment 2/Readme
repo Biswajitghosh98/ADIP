@@ -1,0 +1,3 @@
+Consider an image of a painting with three panels. Develop an interactive  tool for straightening the panels, so that all of them lie on the plane of the middle panel. The tool should be able to copy and stitch the images of panels to make them a seamless continuous painting. There may be missing portion of a painting in any of these panels, you should have the option to fill them by applying any suitable heuristics.
+
+Consider the images provided with this assignment, namely ThreePanel1 to 4. Provide experimental results on each of them in your report. 

@@ -1,0 +1,8 @@
+Consider a pair of images of the same scene (Neptune Temple at Cape Sounion, Greece) taken by the same affine camera from two different viewing positions (as attached with the assignment). Perform the following operations.
+(i) Form a set of pairs of corresponding points using key point extraction and feature descriptors (e.g. SIFT or SURF). You may use functions provided by the development environment for these operations.  10
+(ii) Provide a user interface to select a few good set of corresponding pairs  representing the structure and also link them by edges if they are connected by edges in the image. While labelling, also group them based on their coplanarity. 20
+(ii) Compute the fundamental matrix using coplanarity of points for  estimation. 20
+(iii) Draw the epipolar lines corresponding to the key point set formed by you in both images.   20
+(iv) Compute 3D affine coordinates of the scene and also the camera matrices using matrix decomposition (Tomasi-Kanade Algorithm). 10
+(v) Perform Euclidean upgrades on the estimated points.
+(vi) Provide user interface to display the point sets linked by their edges, and measure the ratios of the height of columns and the gaps between them. Provide also the ratio of height of a column and the width of the  arena (separation between two rows of columns).
